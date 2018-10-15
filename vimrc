@@ -22,6 +22,7 @@ filetype plugin indent on
 " specify indentation as 4 spaces too
 :set shiftwidth=4
 :set fileformat=unix
+:set diffopt+=vertical
 
 autocmd BufWritePre * :%s/\s\+$//e
 highlight ExtraWhitespace ctermbg=red guibg=red
