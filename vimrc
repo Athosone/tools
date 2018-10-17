@@ -1,4 +1,3 @@
-"execute pathogen#infect()
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -17,9 +16,8 @@ Plugin 'keith/swift.vim'
 call vundle#end()
 
 filetype plugin indent on
-" 4 spaces wide tabs
+
 :set tabstop=4
-" specify indentation as 4 spaces too
 :set shiftwidth=4
 :set fileformat=unix
 :set diffopt+=vertical
