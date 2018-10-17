@@ -16,6 +16,9 @@
 [submodule "vim/bundle/vim-easy-align"]
 	path = vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align
-[submodule "vim/bundle/vim-swift"]
-	path = vim/bundle/vim-swift
-	url = https://github.com/kballard/vim-swift.git
+[submodule "vim/bundle/Vundle.vim"]
+	path = vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "vim/bundle/swift.vim"]
+	path = vim/bundle/swift.vim
+	url = https://github.com/keith/swift.vim.git
