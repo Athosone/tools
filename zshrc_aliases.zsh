@@ -13,3 +13,4 @@ alias find-file='function __findFile() { find . -name "$1" -type f | xargs ls -l
 alias source-sh="source ~/.zshrc"
 alias kill-simu='killall -9 "com.apple.CoreSimulator.CoreSimulatorService"'
 alias c='clear'
+alias update_develop='git fetch -p && git checkout develop && git pull && git checkout -'
